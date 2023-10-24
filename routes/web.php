@@ -18,3 +18,6 @@ Route::get('/posts/{slug}', function ($slug) {
         'post' => $post
     ]);
 });
+
+
+Route::view('/test','app');
